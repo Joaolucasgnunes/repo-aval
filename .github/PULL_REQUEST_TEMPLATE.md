@@ -1,25 +1,15 @@
 # Descrição
-Adicionar aqui uma descrição do que foi feito.
-
-Ex.:
-Adiciona módulo de mensagens com remetente, destinatário e vinculado a uma solicitação.
+Implementação das funções matemáticas básicas para a aplicação de calculadora.
 
 ## Implementa
-Citar aqui o que foi implementado (Pode ser em forma de itens)
-
-Ex.:
-- Criação de mensagens
-- Listagem de mensagens por solicitação
-- Listagem de mensagens por usuários
-- Adição de subscription
-- Demais queries e mutations do nest-query
+Implementação das funções: add, subtract, multiply, divide, e sqrt.
+Adição de validação para garantir que os parâmetros das funções sejam números.
+Remoção de funções duplicadas para melhorar a clareza do código.
 
 ## Ajusta
-Caso na implementação, além da proposta principal da entrega, tenha sido feito algum ajuste, citar aqui.
+Nenhum ajuste adicional foi feito além da implementação das funções matemáticas básicas.
 
-Ex.:
-- Módulo de Users para listar mensagens
-- Módulo de Solicitations para listar mensagens
+
 
 ## Corrige
 Caso alguma correção tenha sido feita, citar aqui.
@@ -34,20 +24,22 @@ Ex.:
 Issue 7 - https://github.com/angelogluz/Atividade-versionamento/issues/7
 
 ## Tipo de mudança (marcar as alternativas que se encaixam)
-- [ ] Nova Funcionalidade
+- [x] Nova Funcionalidade
 - [ ] Correções de bugs
 - [ ] Ajuste
 
-Ex.:
-- [x] Nova Funcionalidade
-- [ ] Correções de bugs
-- [x] Ajuste
 
 # Como foi testado?
-Explicar aqui como foi testada a entrega.
+A entrega foi testada através de testes manuais realizados diretamente no código. As funções matemáticas foram chamadas com diferentes conjuntos de parâmetros para verificar se retornavam os resultados esperados.
 
-Ex.:
-Testes manuais no insomnia.
+Os seguintes testes foram realizados:
+
+Soma: Verificou-se a adição de dois números, conferindo se o resultado estava correto.
+Subtração: Testou-se a subtração de dois números, validando se o resultado era o esperado.
+Multiplicação: Realizou-se a multiplicação de dois números e checou-se o resultado.
+Divisão: Testou-se a divisão entre dois números, incluindo um teste específico para a divisão por zero, que deve lançar um erro.
+Raiz Quadrada: Verificou-se a raiz quadrada de números positivos e a resposta correta ao tentar calcular a raiz quadrada de um número negativo, que deve também lançar um erro.
+Os resultados foram conferidos manualmente, garantindo que todas as funções se comportassem conforme o esperado.
 
 ### Exemplo:
 #### Criação de mensagem
